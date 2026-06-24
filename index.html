@@ -3,54 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Café Limão — Confeitaria</title>
-  <meta name="description" content="Café Limão — Confeitaria artesanal em Florianópolis. Salgados, doces e café feitos com amor. Peça pelo WhatsApp!" />
+  <title>Dona Tita — Panificadora e Confeitaria</title>
+  <meta name="description" content="Dona Tita — Panificadora e Confeitaria em Florianópolis. Pães fresquinhos, bolos, tortas e café. Pantanal, Florianópolis." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --lemon: #E8C22A;
-      --lemon-light: #F5D96B;
-      --lemon-dark: #C9A718;
-      --cream: #FFFBF0;
-      --cream-2: #FFF5D6;
-      --cream-3: #FDEFC0;
-      --card: #FFFDF5;
-      --surface: #FFF2CC;
-      --terra: #C8714A;
-      --sage: #7A9E78;
-      --border: rgba(200,170,30,0.2);
-      --border-soft: rgba(200,170,30,0.12);
-      --text-primary: #1A1410;
-      --text-secondary: #5C4F3A;
-      --text-muted: #9E8E72;
-      --nav-bg: rgba(255,251,240,0.88);
-      --shadow-card: 0 2px 20px rgba(180,140,0,0.1);
-      --shadow-hover: 0 8px 36px rgba(180,140,0,0.18);
-      --hero-overlay: linear-gradient(160deg, rgba(255,251,240,0.92) 0%, rgba(255,251,240,0.75) 50%, rgba(255,251,240,0.3) 100%);
+      --wheat: #D4930A;
+      --wheat-light: #F2B825;
+      --wheat-pale: #FFF4D6;
+      --wheat-dark: #A96E00;
+      --cream: #FDFAF3;
+      --cream-2: #FBF5E4;
+      --cream-3: #F5EBCC;
+      --card: #FEFCF5;
+      --surface: #F5EBCC;
+      --brown: #3D2007;
+      --brown-mid: #6B3A1F;
+      --rust: #B5451B;
+      --green: #5C7A3E;
+      --border: rgba(180,120,10,0.18);
+      --border-soft: rgba(180,120,10,0.1);
+      --text-primary: #1E1208;
+      --text-secondary: #5A3D1E;
+      --text-muted: #9A7A52;
+      --nav-bg: rgba(253,250,243,0.9);
+      --shadow-card: 0 2px 20px rgba(100,60,0,0.09);
+      --shadow-hover: 0 8px 36px rgba(100,60,0,0.16);
+      --hero-overlay: linear-gradient(150deg, rgba(30,18,8,0.78) 0%, rgba(30,18,8,0.5) 55%, rgba(30,18,8,0.15) 100%);
     }
     [data-theme="dark"] {
-      --cream: #1A1710;
-      --cream-2: #221F15;
-      --cream-3: #2A2618;
-      --card: #1E1C12;
-      --surface: #2E2A18;
-      --border: rgba(200,170,30,0.18);
-      --border-soft: rgba(200,170,30,0.08);
-      --text-primary: #F5EDCC;
-      --text-secondary: #C4B08A;
-      --text-muted: #7A6E55;
-      --nav-bg: rgba(26,23,16,0.9);
-      --shadow-card: 0 2px 20px rgba(0,0,0,0.35);
-      --shadow-hover: 0 8px 36px rgba(0,0,0,0.5);
-      --hero-overlay: linear-gradient(160deg, rgba(26,23,16,0.95) 0%, rgba(26,23,16,0.8) 50%, rgba(26,23,16,0.3) 100%);
+      --cream: #181008;
+      --cream-2: #201508;
+      --cream-3: #281C0C;
+      --card: #1C1208;
+      --surface: #2A1C0C;
+      --border: rgba(200,140,20,0.18);
+      --border-soft: rgba(200,140,20,0.09);
+      --text-primary: #F5E8CC;
+      --text-secondary: #C4A070;
+      --text-muted: #7A6040;
+      --nav-bg: rgba(24,16,8,0.92);
+      --shadow-card: 0 2px 20px rgba(0,0,0,0.4);
+      --shadow-hover: 0 8px 36px rgba(0,0,0,0.55);
+      --hero-overlay: linear-gradient(150deg, rgba(10,5,0,0.92) 0%, rgba(10,5,0,0.7) 55%, rgba(10,5,0,0.2) 100%);
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
     body {
-      font-family: 'DM Sans', system-ui, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       background: var(--cream);
       color: var(--text-primary);
       line-height: 1.65;
@@ -60,27 +63,27 @@
     img { display: block; width: 100%; object-fit: cover; }
     a { text-decoration: none; color: inherit; }
     ul { list-style: none; }
-    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; line-height: 1.15; }
+    h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1.15; }
 
     .container { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 1.5rem; }
     .section { padding: 5.5rem 0; }
     .divider { width: 100%; height: 1px; background: var(--border); }
 
-    /* LEMON DIVIDER — the signature motif */
-    .lemon-divider {
+    /* WHEAT DIVIDER — the signature motif */
+    .wheat-divider {
       display: flex;
       align-items: center;
       gap: 1rem;
       margin: 0.25rem 0 1.25rem;
     }
-    .lemon-divider::before,
-    .lemon-divider::after {
+    .wheat-divider::before,
+    .wheat-divider::after {
       content: '';
       flex: 1;
       height: 1px;
       background: var(--border);
     }
-    .lemon-icon {
+    .wheat-icon {
       font-size: 1rem;
       display: flex;
       align-items: center;
@@ -88,22 +91,22 @@
     }
 
     .section-label {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 0.68rem;
       font-weight: 600;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--terra);
+      color: var(--rust);
       margin-bottom: 0.5rem;
     }
     .section-title {
       font-size: clamp(2rem, 4.5vw, 3.2rem);
-      font-weight: 600;
+      font-weight: 700;
       color: var(--text-primary);
       margin-bottom: 0.75rem;
       line-height: 1.12;
     }
-    .section-title em { font-style: italic; color: var(--lemon-dark); }
+    .section-title em { font-style: italic; color: var(--wheat-dark); }
 
     /* BUTTONS */
     .btn {
@@ -111,22 +114,22 @@
       align-items: center;
       gap: 0.5rem;
       padding: 0.8rem 1.6rem;
-      border-radius: 100px;
+      border-radius: 6px;
       font-size: 0.88rem;
       font-weight: 600;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       cursor: pointer;
       transition: all 0.22s ease;
       border: none;
       white-space: nowrap;
     }
-    .btn-primary { background: var(--lemon); color: #1A1410; }
-    .btn-primary:hover { background: var(--lemon-light); transform: translateY(-2px); box-shadow: 0 6px 22px rgba(200,170,0,0.35); }
-    .btn-outline { background: transparent; color: var(--text-primary); border: 1.5px solid var(--border); }
-    .btn-outline:hover { border-color: var(--lemon-dark); color: var(--lemon-dark); transform: translateY(-2px); }
-    .btn-ghost { background: rgba(200,170,30,0.1); color: var(--lemon-dark); border: 1.5px solid rgba(200,170,30,0.25); }
-    .btn-ghost:hover { background: rgba(200,170,30,0.2); transform: translateY(-2px); }
-    .btn-wpp { background: #25D366; color: #fff; }
+    .btn-primary { background: var(--wheat); color: #fff; }
+    .btn-primary:hover { background: var(--wheat-dark); transform: translateY(-2px); box-shadow: 0 6px 22px rgba(180,100,0,0.35); }
+    .btn-outline { background: transparent; color: var(--text-primary); border: 1.5px solid var(--border); border-radius: 6px; }
+    .btn-outline:hover { border-color: var(--wheat-dark); color: var(--wheat-dark); transform: translateY(-2px); }
+    .btn-ghost { background: rgba(180,120,10,0.1); color: var(--wheat-dark); border: 1.5px solid rgba(180,120,10,0.25); border-radius: 6px; }
+    .btn-ghost:hover { background: rgba(180,120,10,0.2); transform: translateY(-2px); }
+    .btn-wpp { background: #25D366; color: #fff; border-radius: 6px; }
     .btn-wpp:hover { background: #1db954; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(37,211,102,0.35); }
 
     /* NAVIGATION */
@@ -144,16 +147,28 @@
     }
     .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
     .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.5rem;
-      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      font-weight: 800;
       color: var(--text-primary);
       flex-shrink: 0;
       display: flex;
       align-items: center;
-      gap: 0.35rem;
+      gap: 0.45rem;
+      letter-spacing: -0.01em;
     }
-    .nav-logo-lemon { font-size: 1.2rem; }
+    .nav-logo-icon { font-size: 1.15rem; }
+    .nav-logo-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.58rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      display: block;
+      margin-top: -2px;
+    }
+    .nav-logo-wrap { display: flex; flex-direction: column; }
     .nav-links { display: flex; align-items: center; gap: 2rem; }
     .nav-links a { font-size: 0.85rem; font-weight: 500; color: var(--text-secondary); transition: color 0.2s; }
     .nav-links a:hover { color: var(--text-primary); }
@@ -162,18 +177,18 @@
     /* CART */
     .btn-cart {
       display: flex; align-items: center; gap: 0.45rem;
-      background: var(--lemon); color: #1A1410;
-      border: none; border-radius: 100px;
+      background: var(--wheat); color: #fff;
+      border: none; border-radius: 6px;
       padding: 0.5rem 1rem;
       font-size: 0.82rem; font-weight: 700;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       cursor: pointer; transition: all 0.22s;
     }
-    .btn-cart:hover { background: var(--lemon-light); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(200,170,0,0.3); }
+    .btn-cart:hover { background: var(--wheat-dark); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(180,100,0,0.3); }
     .btn-cart svg { width: 17px; height: 17px; flex-shrink: 0; }
     .cart-count {
-      background: #1A1410; color: var(--lemon);
-      border-radius: 100px; font-size: 0.68rem; font-weight: 800;
+      background: #fff; color: var(--wheat-dark);
+      border-radius: 4px; font-size: 0.68rem; font-weight: 800;
       min-width: 17px; height: 17px;
       display: flex; align-items: center; justify-content: center;
       padding: 0 3px; transition: transform 0.2s;
@@ -184,15 +199,15 @@
     .theme-toggle {
       width: 40px; height: 22px;
       background: var(--surface); border: 1.5px solid var(--border);
-      border-radius: 100px; cursor: pointer; position: relative;
+      border-radius: 4px; cursor: pointer; position: relative;
       transition: background 0.3s; flex-shrink: 0;
     }
     .theme-toggle::after {
       content: '';
       position: absolute; top: 2px; left: 2px;
       width: 14px; height: 14px;
-      background: var(--lemon-dark);
-      border-radius: 50%; transition: transform 0.3s;
+      background: var(--wheat-dark);
+      border-radius: 2px; transition: transform 0.3s;
     }
     [data-theme="dark"] .theme-toggle::after { transform: translateX(18px); }
 
@@ -210,11 +225,11 @@
       padding: 6rem 2rem 2rem; flex-direction: column; gap: 1.75rem;
     }
     .mobile-menu.open { display: flex; }
-    .mobile-menu a { font-size: 1.6rem; font-family: 'Cormorant Garamond', serif; font-weight: 600; color: var(--text-primary); padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
-    .mobile-menu a:hover { color: var(--lemon-dark); }
+    .mobile-menu a { font-size: 1.6rem; font-family: 'Playfair Display', serif; font-weight: 700; color: var(--text-primary); padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+    .mobile-menu a:hover { color: var(--wheat-dark); }
 
     /* CART DRAWER */
-    .cart-overlay { position: fixed; inset: 0; background: rgba(20,15,5,0.55); z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+    .cart-overlay { position: fixed; inset: 0; background: rgba(10,5,0,0.6); z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
     .cart-overlay.open { opacity: 1; pointer-events: all; }
     .cart-drawer {
       position: fixed; top: 0; right: 0; bottom: 0;
@@ -225,30 +240,30 @@
     }
     .cart-drawer.open { transform: translateX(0); }
     .cart-header { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--border); flex-shrink: 0; }
-    .cart-header h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 600; }
-    .cart-close { width: 34px; height: 34px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; color: var(--text-secondary); transition: all 0.2s; }
-    .cart-close:hover { color: var(--text-primary); border-color: var(--lemon-dark); }
+    .cart-header h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; }
+    .cart-close { width: 34px; height: 34px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; color: var(--text-secondary); transition: all 0.2s; }
+    .cart-close:hover { color: var(--text-primary); border-color: var(--wheat-dark); }
     .cart-body { flex: 1; overflow-y: auto; padding: 1rem 1.5rem; }
     .cart-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 1rem; text-align: center; }
     .cart-empty-icon { font-size: 2.8rem; opacity: 0.4; }
     .cart-empty p { color: var(--text-muted); font-size: 0.88rem; }
     .cart-item { display: flex; gap: 0.9rem; align-items: flex-start; padding: 1rem 0; border-bottom: 1px solid var(--border-soft); }
-    .cart-item-img { width: 62px; height: 62px; border-radius: 10px; background-size: cover; background-position: center; flex-shrink: 0; }
+    .cart-item-img { width: 62px; height: 62px; border-radius: 6px; background-size: cover; background-position: center; flex-shrink: 0; }
     .cart-item-info { flex: 1; min-width: 0; }
     .cart-item-name { font-weight: 600; font-size: 0.88rem; margin-bottom: 0.15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .cart-item-price { color: var(--lemon-dark); font-weight: 700; font-size: 0.86rem; }
+    .cart-item-price { color: var(--wheat-dark); font-weight: 700; font-size: 0.86rem; }
     .cart-item-controls { display: flex; align-items: center; gap: 0.45rem; margin-top: 0.45rem; }
-    .qty-btn { width: 26px; height: 26px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 700; color: var(--text-primary); transition: all 0.15s; }
-    .qty-btn:hover { border-color: var(--lemon-dark); color: var(--lemon-dark); }
+    .qty-btn { width: 26px; height: 26px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 700; color: var(--text-primary); transition: all 0.15s; }
+    .qty-btn:hover { border-color: var(--wheat-dark); color: var(--wheat-dark); }
     .qty-val { font-size: 0.88rem; font-weight: 600; min-width: 18px; text-align: center; }
     .cart-item-remove { background: none; border: none; cursor: pointer; color: var(--text-muted); font-size: 0.72rem; transition: color 0.15s; padding: 0.2rem; margin-left: auto; flex-shrink: 0; }
     .cart-item-remove:hover { color: #c0392b; }
     .cart-footer { padding: 1.25rem 1.5rem; border-top: 1px solid var(--border); flex-shrink: 0; }
     .cart-total-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
     .cart-total-label { font-size: 0.84rem; color: var(--text-secondary); }
-    .cart-total-val { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 700; color: var(--lemon-dark); }
+    .cart-total-val { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--wheat-dark); }
     .cart-note { font-size: 0.76rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5; }
-    .btn-send-order { width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.55rem; background: #25D366; color: #fff; border: none; border-radius: 100px; padding: 0.95rem; font-size: 0.95rem; font-weight: 700; font-family: 'DM Sans', sans-serif; cursor: pointer; transition: all 0.22s; }
+    .btn-send-order { width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.55rem; background: #25D366; color: #fff; border: none; border-radius: 6px; padding: 0.95rem; font-size: 0.95rem; font-weight: 700; font-family: 'Inter', sans-serif; cursor: pointer; transition: all 0.22s; }
     .btn-send-order:hover { background: #1db954; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,0.35); }
     .btn-send-order:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
@@ -256,8 +271,8 @@
     #hero { position: relative; min-height: 100svh; display: flex; align-items: center; overflow: hidden; }
     .hero-bg {
       position: absolute; inset: 0;
-      background-image: url('https://images.unsplash.com/photo-1612548403247-aa2873e9422d?w=1600&q=80&auto=format&fit=crop');
-      background-size: cover; background-position: center 60%;
+      background-image: url('https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1800&q=85&auto=format&fit=crop');
+      background-size: cover; background-position: center 45%;
       transform: scale(1.04); transition: transform 8s ease;
     }
     #hero.loaded .hero-bg { transform: scale(1); }
@@ -265,22 +280,21 @@
     .hero-content { position: relative; z-index: 2; padding: 8rem 0 5rem; width: 100%; }
     .hero-eyebrow {
       display: inline-flex; align-items: center; gap: 0.6rem;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
-      color: var(--terra);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--wheat-light);
       margin-bottom: 1.5rem;
       opacity: 0; animation: fadeUp 0.7s 0.2s ease forwards;
     }
-    .hero-eyebrow::before { content: ''; display: block; width: 24px; height: 1px; background: var(--terra); }
+    .hero-eyebrow::before { content: ''; display: block; width: 24px; height: 1px; background: var(--wheat-light); }
     .hero-title {
-      font-size: clamp(3rem, 8vw, 5.8rem); font-weight: 300; line-height: 1.05;
-      color: var(--text-primary); max-width: 680px; margin-bottom: 1.5rem;
+      font-size: clamp(3rem, 8vw, 5.8rem); font-weight: 800; line-height: 1.02;
+      color: #FFF8E8; max-width: 720px; margin-bottom: 1.5rem;
       opacity: 0; animation: fadeUp 0.7s 0.35s ease forwards;
     }
-    .hero-title strong { font-weight: 700; display: block; }
-    .hero-title em { font-style: italic; color: var(--lemon-dark); }
+    .hero-title em { font-style: italic; color: var(--wheat-light); font-weight: 400; }
     .hero-sub {
-      font-size: 1rem; color: var(--text-secondary); max-width: 420px;
+      font-size: 1rem; color: rgba(255,245,215,0.78); max-width: 440px;
       margin-bottom: 2.5rem; line-height: 1.75;
       opacity: 0; animation: fadeUp 0.7s 0.5s ease forwards;
     }
@@ -291,16 +305,16 @@
       opacity: 0; animation: fadeUp 0.7s 0.8s ease forwards;
     }
     .stars-visual { display: flex; gap: 2px; }
-    .star { color: var(--lemon); font-size: 1.1rem; }
-    .stars-text { font-size: 0.82rem; color: var(--text-secondary); }
-    .stars-text strong { color: var(--text-primary); }
+    .star { color: var(--wheat-light); font-size: 1.1rem; }
+    .stars-text { font-size: 0.82rem; color: rgba(255,245,215,0.75); }
+    .stars-text strong { color: #FFF8E8; }
 
     /* STATS */
-    .stats-bar { background: var(--lemon); padding: 1.5rem 0; }
+    .stats-bar { background: var(--brown); padding: 1.5rem 0; }
     .stats-inner { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; }
     .stat-item { text-align: center; }
-    .stat-num { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: #1A1410; line-height: 1; }
-    .stat-label { font-size: 0.72rem; font-weight: 500; color: rgba(26,20,16,0.65); letter-spacing: 0.05em; margin-top: 0.2rem; }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: var(--wheat-light); line-height: 1; }
+    .stat-label { font-size: 0.72rem; font-weight: 500; color: rgba(245,225,180,0.55); letter-spacing: 0.05em; margin-top: 0.2rem; }
 
     /* ABOUT */
     .about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 5rem; align-items: center; }
@@ -308,23 +322,23 @@
     .about-img { border-radius: 2px; height: 440px; }
     .about-img-frame {
       position: absolute; top: 1.5rem; left: 1.5rem; right: -1.5rem; bottom: -1.5rem;
-      border: 2px solid var(--lemon); border-radius: 2px; z-index: -1;
+      border: 2px solid var(--wheat); border-radius: 2px; z-index: -1;
     }
     .about-badge {
       position: absolute; bottom: -2rem; right: -2rem;
-      background: var(--lemon); color: #1A1410;
-      width: 96px; height: 96px; border-radius: 50%;
+      background: var(--brown); color: var(--wheat-light);
+      width: 96px; height: 96px; border-radius: 4px;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; box-shadow: 0 8px 28px rgba(200,170,0,0.3);
-      font-family: 'DM Sans', sans-serif;
+      text-align: center; box-shadow: 0 8px 28px rgba(10,5,0,0.4);
+      font-family: 'Inter', sans-serif;
     }
-    .about-badge strong { font-size: 1.7rem; font-family: 'Cormorant Garamond', serif; font-weight: 700; line-height: 1; }
-    .about-badge span { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.04em; }
+    .about-badge strong { font-size: 1.7rem; font-family: 'Playfair Display', serif; font-weight: 700; line-height: 1; color: var(--wheat-light); }
+    .about-badge span { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.04em; color: rgba(245,225,180,0.7); }
     .about-text p { color: var(--text-secondary); line-height: 1.85; margin-bottom: 1rem; font-size: 0.96rem; }
     .about-pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
-    .pillar { background: var(--card); border: 1px solid var(--border-soft); border-radius: 12px; padding: 1rem 1.1rem; }
+    .pillar { background: var(--card); border: 1px solid var(--border-soft); border-radius: 6px; padding: 1rem 1.1rem; }
     .pillar-icon { font-size: 1.3rem; margin-bottom: 0.4rem; }
-    .pillar h4 { font-family: 'DM Sans', sans-serif; font-size: 0.84rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem; }
+    .pillar h4 { font-family: 'Inter', sans-serif; font-size: 0.84rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem; }
     .pillar p { font-size: 0.76rem; color: var(--text-muted); line-height: 1.5; }
 
     /* REVIEWS */
@@ -333,13 +347,13 @@
     .reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
     .review-card {
       background: var(--card); border: 1px solid var(--border-soft);
-      border-radius: 14px; padding: 1.5rem;
+      border-radius: 8px; padding: 1.5rem;
       box-shadow: var(--shadow-card);
       transition: transform 0.25s, box-shadow 0.25s;
     }
     .review-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
     .review-stars { display: flex; gap: 2px; margin-bottom: 0.75rem; }
-    .review-stars span { color: var(--lemon); font-size: 0.9rem; }
+    .review-stars span { color: var(--wheat); font-size: 0.9rem; }
     .review-text { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem; font-style: italic; }
     .review-author { display: flex; align-items: center; gap: 0.65rem; }
     .review-avatar { width: 34px; height: 34px; background: var(--surface); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
@@ -350,27 +364,27 @@
     #menu { background: var(--cream); }
     .menu-header { text-align: center; margin-bottom: 2.5rem; }
     .menu-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem; }
-    .menu-tab { padding: 0.45rem 1.1rem; border-radius: 100px; font-size: 0.8rem; font-weight: 500; cursor: pointer; background: var(--card); color: var(--text-secondary); border: 1.5px solid var(--border); transition: all 0.2s; font-family: 'DM Sans', sans-serif; }
-    .menu-tab.active { background: var(--lemon); color: #1A1410; border-color: var(--lemon); font-weight: 700; }
-    .menu-tab:not(.active):hover { border-color: var(--lemon-dark); color: var(--lemon-dark); }
+    .menu-tab { padding: 0.45rem 1.1rem; border-radius: 4px; font-size: 0.8rem; font-weight: 500; cursor: pointer; background: var(--card); color: var(--text-secondary); border: 1.5px solid var(--border); transition: all 0.2s; font-family: 'Inter', sans-serif; }
+    .menu-tab.active { background: var(--wheat); color: #fff; border-color: var(--wheat); font-weight: 700; }
+    .menu-tab:not(.active):hover { border-color: var(--wheat-dark); color: var(--wheat-dark); }
     .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
-    .menu-card { background: var(--card); border: 1px solid var(--border-soft); border-radius: 16px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; display: none; box-shadow: var(--shadow-card); }
+    .menu-card { background: var(--card); border: 1px solid var(--border-soft); border-radius: 10px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; display: none; box-shadow: var(--shadow-card); }
     .menu-card.visible { display: block; }
     .menu-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
     .menu-card-img { height: 175px; background-size: cover; background-position: center; position: relative; }
-    .badge-popular { position: absolute; top: 0.7rem; left: 0.7rem; background: var(--terra); color: #fff; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.28rem 0.65rem; border-radius: 100px; font-family: 'DM Sans', sans-serif; }
+    .badge-popular { position: absolute; top: 0.7rem; left: 0.7rem; background: var(--rust); color: #fff; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.28rem 0.65rem; border-radius: 4px; font-family: 'Inter', sans-serif; }
     .menu-card-body { padding: 1.1rem 1.25rem 1.25rem; }
-    .menu-card-name { font-family: 'Cormorant Garamond', serif; font-size: 1.18rem; font-weight: 600; margin-bottom: 0.3rem; color: var(--text-primary); }
+    .menu-card-name { font-family: 'Playfair Display', serif; font-size: 1.18rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--text-primary); }
     .menu-card-desc { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem; }
     .menu-card-footer { display: flex; justify-content: space-between; align-items: center; }
-    .menu-card-price { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 700; color: var(--lemon-dark); }
-    .btn-add-cart { font-size: 0.76rem; padding: 0.42rem 0.9rem; border-radius: 100px; background: rgba(200,170,30,0.1); color: var(--lemon-dark); border: 1.5px solid rgba(200,170,30,0.3); cursor: pointer; font-weight: 700; font-family: 'DM Sans', sans-serif; transition: all 0.2s; }
-    .btn-add-cart:hover, .btn-add-cart.added { background: var(--lemon); color: #1A1410; border-color: var(--lemon); }
+    .menu-card-price { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--wheat-dark); }
+    .btn-add-cart { font-size: 0.76rem; padding: 0.42rem 0.9rem; border-radius: 4px; background: rgba(180,120,10,0.1); color: var(--wheat-dark); border: 1.5px solid rgba(180,120,10,0.3); cursor: pointer; font-weight: 700; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+    .btn-add-cart:hover, .btn-add-cart.added { background: var(--wheat); color: #fff; border-color: var(--wheat); }
 
     /* GALLERY */
     #galeria { background: var(--cream-2); }
     .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 2.5rem; }
-    .gallery-item { overflow: hidden; border-radius: 10px; }
+    .gallery-item { overflow: hidden; border-radius: 6px; }
     .gallery-item img { height: 220px; transition: transform 0.45s ease; }
     .gallery-item:hover img { transform: scale(1.06); }
     .gallery-item:nth-child(1) { grid-column: span 2; }
@@ -380,31 +394,39 @@
     #location { background: var(--cream); }
     .location-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 3.5rem; align-items: start; }
     .info-block { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
-    .info-icon { width: 42px; height: 42px; background: var(--cream-3); border: 1px solid var(--border); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
-    .info-text h4 { font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem; letter-spacing: 0.02em; }
+    .info-icon { width: 42px; height: 42px; background: var(--cream-3); border: 1px solid var(--border); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+    .info-text h4 { font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem; letter-spacing: 0.02em; }
     .info-text p, .info-text a { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.65; }
-    .info-text a:hover { color: var(--lemon-dark); }
-    .map-wrap { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); height: 380px; }
+    .info-text a:hover { color: var(--wheat-dark); }
+    .map-wrap { border-radius: 8px; overflow: hidden; border: 1px solid var(--border); height: 380px; }
     .map-wrap iframe { width: 100%; height: 100%; border: 0; }
 
+    /* PRICE RANGE */
+    .price-range-tag {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: var(--cream-3); border: 1px solid var(--border);
+      border-radius: 4px; padding: 0.3rem 0.7rem;
+      font-size: 0.76rem; font-weight: 600; color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
     /* FOOTER */
-    footer { background: #1A1410; padding: 3.5rem 0 2rem; border-top: none; }
+    footer { background: var(--brown); padding: 3.5rem 0 2rem; }
     .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
-    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--lemon); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.35rem; }
-    .footer-brand p { font-size: 0.8rem; color: rgba(245,237,200,0.5); max-width: 220px; line-height: 1.6; }
-    .footer-links h4 { font-family: 'DM Sans', sans-serif; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(245,237,200,0.4); margin-bottom: 1rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; color: var(--wheat-light); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.35rem; }
+    .footer-brand p { font-size: 0.8rem; color: rgba(245,225,180,0.45); max-width: 220px; line-height: 1.6; }
+    .footer-links h4 { font-family: 'Inter', sans-serif; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(245,225,180,0.35); margin-bottom: 1rem; }
     .footer-links ul { display: flex; flex-direction: column; gap: 0.6rem; }
-    .footer-links a { font-size: 0.83rem; color: rgba(245,237,200,0.65); transition: color 0.2s; }
-    .footer-links a:hover { color: var(--lemon); }
-    .footer-bottom { border-top: 1px solid rgba(245,237,200,0.1); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-    .footer-bottom p { font-size: 0.76rem; color: rgba(245,237,200,0.35); }
+    .footer-links a { font-size: 0.83rem; color: rgba(245,225,180,0.6); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--wheat-light); }
+    .footer-bottom { border-top: 1px solid rgba(245,225,180,0.12); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .footer-bottom p { font-size: 0.76rem; color: rgba(245,225,180,0.3); }
 
     /* SCROLL REVEAL */
     .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
     @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
     /* RESPONSIVE */
     @media (max-width: 900px) {
@@ -442,8 +464,11 @@
   <nav id="nav">
     <div class="container nav-inner">
       <a href="#" class="nav-logo">
-        <span class="nav-logo-lemon">🍋</span>
-        Café Limão
+        <span class="nav-logo-icon">🥐</span>
+        <div class="nav-logo-wrap">
+          <span>Dona Tita</span>
+          <span class="nav-logo-sub">Panificadora · Confeitaria</span>
+        </div>
       </a>
       <ul class="nav-links">
         <li><a href="#sobre">Sobre</a></li>
@@ -484,7 +509,7 @@
     </div>
     <div class="cart-body" id="cartBody">
       <div class="cart-empty">
-        <div class="cart-empty-icon">🍰</div>
+        <div class="cart-empty-icon">🥐</div>
         <p>Seu carrinho está vazio.<br>Adicione itens do cardápio!</p>
       </div>
     </div>
@@ -506,21 +531,21 @@
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content container">
-      <div class="hero-eyebrow">Confeitaria artesanal · Florianópolis</div>
+      <div class="hero-eyebrow">Panificadora · Pantanal, Florianópolis</div>
       <h1 class="hero-title">
-        Feito com carinho,<br>
-        <em>sabor de verdade</em>
+        Pão fresquinho,<br>
+        <em>todo santo dia</em>
       </h1>
-      <p class="hero-sub">Salgados, doces e café fresquinhos todos os dias. Um cantinho aconchegante no coração do Saco dos Limões.</p>
+      <p class="hero-sub">Bolos, tortas, salgados e café preparados com carinho há anos. Um pedaço de casa no coração do Pantanal.</p>
       <div class="hero-btns">
         <a href="#menu" class="btn btn-primary">Ver cardápio e pedir</a>
-        <a href="#sobre" class="btn btn-outline">Conhecer o café</a>
+        <a href="#sobre" class="btn btn-outline" style="color:#FFF8E8;border-color:rgba(255,245,215,0.35)">Conhecer a padaria</a>
       </div>
       <div class="hero-stars">
         <div class="stars-visual">
-          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="opacity:0.5">★</span>
         </div>
-        <span class="stars-text"><strong>4,9</strong> — 52 avaliações no Google</span>
+        <span class="stars-text"><strong>4,4</strong> — 906 avaliações no Google</span>
       </div>
     </div>
   </section>
@@ -528,10 +553,10 @@
   <!-- STATS -->
   <div class="stats-bar">
     <div class="container stats-inner">
-      <div class="stat-item reveal"><div class="stat-num">4,9★</div><div class="stat-label">Google Maps</div></div>
-      <div class="stat-item reveal" style="transition-delay:0.1s"><div class="stat-num">52+</div><div class="stat-label">Avaliações</div></div>
-      <div class="stat-item reveal" style="transition-delay:0.2s"><div class="stat-num">100%</div><div class="stat-label">Feito na hora</div></div>
-      <div class="stat-item reveal" style="transition-delay:0.3s"><div class="stat-num">❤️</div><div class="stat-label">Com muito amor</div></div>
+      <div class="stat-item reveal"><div class="stat-num">4,4★</div><div class="stat-label">Google Maps</div></div>
+      <div class="stat-item reveal" style="transition-delay:0.1s"><div class="stat-num">906+</div><div class="stat-label">Avaliações</div></div>
+      <div class="stat-item reveal" style="transition-delay:0.2s"><div class="stat-num">R$20–40</div><div class="stat-label">Por pessoa</div></div>
+      <div class="stat-item reveal" style="transition-delay:0.3s"><div class="stat-num">🥐</div><div class="stat-label">Sempre fresco</div></div>
     </div>
   </div>
 
@@ -540,21 +565,21 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-image-wrap reveal">
-          <img class="about-img" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80&auto=format&fit=crop" alt="Interior do Café Limão" />
+          <img class="about-img" src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=800&q=80&auto=format&fit=crop" alt="Interior da Dona Tita" />
           <div class="about-img-frame"></div>
-          <div class="about-badge"><strong>🍋</strong><span>Artesanal</span></div>
+          <div class="about-badge"><strong>🥖</strong><span>Artesanal</span></div>
         </div>
         <div class="about-text reveal" style="transition-delay:0.15s">
-          <div class="section-label">Sobre o Café Limão</div>
-          <div class="lemon-divider"><span class="lemon-icon">🍋</span></div>
-          <h2 class="section-title">Um lugar pra se sentir <em>em casa</em></h2>
-          <p>No coração do Saco dos Limões, o Café Limão nasceu para ser o cantinho de todo mundo. Ambiente pequeno, aconchegante e com aquele gostinho de comida de verdade.</p>
-          <p>Nossos salgados e doces são preparados fresquinhos todos os dias, com ingredientes selecionados e muito carinho. Aqui, cada visita vira uma memória gostosa.</p>
+          <div class="section-label">Sobre a Dona Tita</div>
+          <div class="wheat-divider"><span class="wheat-icon">🌾</span></div>
+          <h2 class="section-title">Lugar lindo, aconchegante, <em>comida boa</em></h2>
+          <p>No Pantanal de Florianópolis, a Dona Tita é daquelas padarias que viram parte da rotina de quem mora na região. Ambiente acolhedor, vitrine variada e aquele cheiro de pão saindo do forno que não tem como resistir.</p>
+          <p>Dos pães artesanais às tortas elaboradas — como a famosa Torta 4 Leites com Morangos — tudo é feito com dedicação. Uma padaria de bairro com alma de confeitaria.</p>
           <div class="about-pillars">
-            <div class="pillar reveal"><div class="pillar-icon">🫶</div><h4>Feito com amor</h4><p>Receitas caseiras preparadas todos os dias</p></div>
-            <div class="pillar reveal" style="transition-delay:0.1s"><div class="pillar-icon">☕</div><h4>Café especial</h4><p>Grãos selecionados, preparo na hora</p></div>
-            <div class="pillar reveal" style="transition-delay:0.2s"><div class="pillar-icon">🌿</div><h4>Sempre fresco</h4><p>Alimentos frescos, entregues diariamente</p></div>
-            <div class="pillar reveal" style="transition-delay:0.3s"><div class="pillar-icon">😊</div><h4>Atendimento nota 10</h4><p>Cordial, rápido e completo, sempre</p></div>
+            <div class="pillar reveal"><div class="pillar-icon">🍞</div><h4>Pães fresquinhos</h4><p>Saindo do forno todos os dias, sem exceção</p></div>
+            <div class="pillar reveal" style="transition-delay:0.1s"><div class="pillar-icon">🎂</div><h4>Bolos e tortas</h4><p>Grande variedade, do clássico ao especial</p></div>
+            <div class="pillar reveal" style="transition-delay:0.2s"><div class="pillar-icon">☕</div><h4>Café caprichado</h4><p>Com leite, passado, com empada — você escolhe</p></div>
+            <div class="pillar reveal" style="transition-delay:0.3s"><div class="pillar-icon">🏡</div><h4>Ambiente acolhedor</h4><p>Espaço para sentar e curtir o momento</p></div>
           </div>
         </div>
       </div>
@@ -568,29 +593,29 @@
     <div class="container">
       <div class="reviews-header reveal">
         <div class="section-label" style="justify-content:center;display:flex">O que nossos clientes dizem</div>
-        <div class="lemon-divider"><span class="lemon-icon">🍋</span></div>
+        <div class="wheat-divider"><span class="wheat-icon">🌾</span></div>
         <h2 class="section-title">Avaliações de quem <em>já veio</em></h2>
       </div>
       <div class="reviews-grid">
         <div class="review-card reveal">
           <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-          <p class="review-text">"Excelente atendimento, lugar pra sentir em casa, delícia de salgados e doces!"</p>
+          <p class="review-text">"Lugar lindo, acolhedor, comida gostosa, doces e pães muitos bons. Dá pra ficar e compartilhar um café com alguém."</p>
           <div class="review-author">
             <div class="review-avatar">👩</div>
-            <div><div class="review-name">Teresinha Espindola</div><div class="review-meta">Local Guide · há 8 anos</div></div>
+            <div><div class="review-name">Paolina Chirinos</div><div class="review-meta">Local Guide · 104 avaliações</div></div>
           </div>
         </div>
         <div class="review-card reveal" style="transition-delay:0.1s">
           <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-          <p class="review-text">"Ambiente pequeno mas aconchegante, o atendimento foi muito bom, cordial, rápido e completo! Recomendo, é um excelente local pra tomar um café."</p>
+          <p class="review-text">"Pães saborosos, doces, bolos variados, lugar aconchegante. Gostei muito!"</p>
           <div class="review-author">
-            <div class="review-avatar">👨</div>
-            <div><div class="review-name">Junior Soares</div><div class="review-meta">Local Guide · 3 meses atrás</div></div>
+            <div class="review-avatar">👩</div>
+            <div><div class="review-name">Leila Sato</div><div class="review-meta">Local Guide · 227 avaliações</div></div>
           </div>
         </div>
         <div class="review-card reveal" style="transition-delay:0.2s">
           <div class="review-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-          <p class="review-text">"Excelente atendimento, comida deliciosa, sempre fresca. Atendimento nota 10 por um legítimo Mané da Ilha."</p>
+          <p class="review-text">"Pão fresquinho, variedade em bolos e tortas — ótimo para um café da tarde!"</p>
           <div class="review-author">
             <div class="review-avatar">🧑</div>
             <div><div class="review-name">Cliente verificado</div><div class="review-meta">Google Maps</div></div>
@@ -598,7 +623,7 @@
         </div>
       </div>
       <div style="text-align:center;margin-top:2rem;">
-        <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-ghost">Ver todas as 52 avaliações →</a>
+        <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-ghost">Ver todas as 906 avaliações →</a>
       </div>
     </div>
   </section>
@@ -610,18 +635,19 @@
     <div class="container">
       <div class="menu-header reveal">
         <div class="section-label" style="justify-content:center;display:flex">Cardápio</div>
-        <div class="lemon-divider"><span class="lemon-icon">🍋</span></div>
+        <div class="wheat-divider"><span class="wheat-icon">🌾</span></div>
         <h2 class="section-title">Escolha o seu favorito</h2>
         <div class="menu-tabs">
           <button class="menu-tab active" data-cat="all">Tudo</button>
+          <button class="menu-tab" data-cat="paes">Pães</button>
           <button class="menu-tab" data-cat="salgados">Salgados</button>
-          <button class="menu-tab" data-cat="doces">Doces</button>
+          <button class="menu-tab" data-cat="doces">Doces & Tortas</button>
           <button class="menu-tab" data-cat="bebidas">Bebidas</button>
         </div>
       </div>
       <div class="menu-grid" id="menuGrid"></div>
       <div style="text-align:center;margin-top:2.5rem;">
-        <a href="https://wa.me/554833337828?text=Olá!%20Gostaria%20de%20ver%20o%20cardápio%20completo%20do%20Café%20Limão%20😊" class="btn btn-ghost" target="_blank" rel="noopener">
+        <a href="https://wa.me/554833647128?text=Olá!%20Gostaria%20de%20ver%20o%20cardápio%20completo%20da%20Dona%20Tita%20😊" class="btn btn-ghost" target="_blank" rel="noopener">
           Cardápio completo no WhatsApp →
         </a>
       </div>
@@ -634,14 +660,14 @@
   <section class="section" id="galeria">
     <div class="container">
       <div class="section-label reveal">Galeria</div>
-      <div class="lemon-divider reveal"><span class="lemon-icon">🍋</span></div>
-      <h2 class="section-title reveal">Cada detalhe pensado <em>com carinho</em></h2>
+      <div class="wheat-divider reveal"><span class="wheat-icon">🌾</span></div>
+      <h2 class="section-title reveal">Cada item feito com <em>muito carinho</em></h2>
       <div class="gallery-grid">
-        <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80&auto=format&fit=crop" alt="Doces artesanais" /></div>
-        <div class="gallery-item reveal" style="transition-delay:0.1s"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500&q=80&auto=format&fit=crop" alt="Café especial" /></div>
-        <div class="gallery-item reveal" style="transition-delay:0.15s"><img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=500&q=80&auto=format&fit=crop" alt="Salgados frescos" /></div>
-        <div class="gallery-item reveal" style="transition-delay:0.2s"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80&auto=format&fit=crop" alt="Ambiente aconchegante" /></div>
-        <div class="gallery-item reveal" style="transition-delay:0.25s"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80&auto=format&fit=crop" alt="Ingredientes frescos" /></div>
+        <div class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80&auto=format&fit=crop" alt="Pães artesanais" /></div>
+        <div class="gallery-item reveal" style="transition-delay:0.1s"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80&auto=format&fit=crop" alt="Café especial" /></div>
+        <div class="gallery-item reveal" style="transition-delay:0.15s"><img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80&auto=format&fit=crop" alt="Tortas e bolos" /></div>
+        <div class="gallery-item reveal" style="transition-delay:0.2s"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&q=80&auto=format&fit=crop" alt="Torta 4 leites" /></div>
+        <div class="gallery-item reveal" style="transition-delay:0.25s"><img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=800&q=80&auto=format&fit=crop" alt="Vitrine da padaria" /></div>
       </div>
     </div>
   </section>
@@ -654,27 +680,31 @@
       <div class="location-grid">
         <div class="location-info reveal">
           <div class="section-label">Localização</div>
-          <div class="lemon-divider"><span class="lemon-icon">🍋</span></div>
+          <div class="wheat-divider"><span class="wheat-icon">🌾</span></div>
           <h2 class="section-title">Venha nos visitar</h2>
           <div class="info-block">
             <div class="info-icon">📍</div>
-            <div class="info-text"><h4>Endereço</h4><p>Rua João Motta Espezim, 645<br>Saco dos Limões, Florianópolis — SC<br>88045-400</p></div>
+            <div class="info-text"><h4>Endereço</h4><p>R. Dep. Antônio Edu Vieira, 443<br>Pantanal, Florianópolis — SC<br>88040-000</p></div>
           </div>
           <div class="info-block">
             <div class="info-icon">🕐</div>
-            <div class="info-text"><h4>Horário de funcionamento</h4><p>Terça a Sexta: a partir das 10h<br>Sábado: consultar<br>Segunda e Domingo: fechado</p></div>
+            <div class="info-text"><h4>Horário de funcionamento</h4><p>Segunda a Sexta: 06:45 às 20:00<br>Sábado: 06:45 às 19:00<br>Domingo e Feriados: 07:30 às 19:00</p></div>
           </div>
           <div class="info-block">
             <div class="info-icon">📞</div>
-            <div class="info-text"><h4>Telefone</h4><a href="tel:4833337828">(48) 3333-7828</a></div>
+            <div class="info-text"><h4>Telefone</h4><a href="tel:4833647128">(48) 3364-7128</a> · <a href="tel:4832244722">(48) 3224-4722</a></div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">🍽️</div>
+            <div class="info-text"><h4>Opções</h4><p>Refeição no local · Para viagem · Entrega</p></div>
           </div>
           <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.5rem;">
-            <a href="https://maps.google.com/?q=Rua+João+Motta+Espezim+645+Saco+dos+Limões+Florianópolis" target="_blank" rel="noopener" class="btn btn-primary">📍 Como chegar</a>
-            <a href="https://wa.me/554833337828?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Café%20Limão%20😊" target="_blank" rel="noopener" class="btn btn-ghost">Pedir pelo WhatsApp</a>
+            <a href="https://maps.google.com/?q=R.+Dep.+Antônio+Edu+Vieira+443+Pantanal+Florianópolis" target="_blank" rel="noopener" class="btn btn-primary">📍 Como chegar</a>
+            <a href="https://wa.me/554833647128?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20na%20Dona%20Tita%20😊" target="_blank" rel="noopener" class="btn btn-ghost">Pedir pelo WhatsApp</a>
           </div>
         </div>
         <div class="map-wrap reveal" style="transition-delay:0.15s">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.5!2d-48.5410!3d-27.6250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952748c8b72c4b73%3A0x0!2sRua%20Jo%C3%A3o%20Motta%20Espezim%2C%20645%20-%20Saco%20dos%20Lim%C3%B5es!5e0!3m2!1spt-BR!2sbr!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do Café Limão"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.5231!2d-48.52430!3d-27.61056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952739a5f9ef3a4d%3A0x801b8e972b339d32!2sDona%20Tita-%20Panificadora%20e%20Confeitaria!5e0!3m2!1spt-BR!2sbr!4v1700000000001" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização da Dona Tita"></iframe>
         </div>
       </div>
     </div>
@@ -685,8 +715,8 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
-          <div class="footer-logo">🍋 Café Limão</div>
-          <p>Confeitaria artesanal com salgados, doces e café fresquinhos em Florianópolis.</p>
+          <div class="footer-logo">🥐 Dona Tita</div>
+          <p>Panificadora e Confeitaria artesanal com pães, bolos, tortas e café em Florianópolis.</p>
         </div>
         <div class="footer-links">
           <h4>Navegação</h4>
@@ -700,94 +730,121 @@
         <div class="footer-links">
           <h4>Contato</h4>
           <ul>
-            <li><a href="https://wa.me/554833337828" target="_blank" rel="noopener">WhatsApp</a></li>
-            <li><a href="tel:4833337828">(48) 3333-7828</a></li>
-            <li><a href="https://maps.google.com/?q=Café+Limão+Florianópolis" target="_blank" rel="noopener">Google Maps</a></li>
+            <li><a href="https://wa.me/554833647128" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="tel:4833647128">(48) 3364-7128</a></li>
+            <li><a href="https://maps.google.com/?q=Dona+Tita+Florianópolis+Pantanal" target="_blank" rel="noopener">Google Maps</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2024 Café Limão. Todos os direitos reservados.</p>
-        <p>Saco dos Limões, Florianópolis — SC</p>
+        <p>© 2024 Dona Tita. Todos os direitos reservados.</p>
+        <p>Pantanal, Florianópolis — SC</p>
       </div>
     </div>
   </footer>
 
   <script>
-    const WPP_NUMBER = '554833337828';
+    const WPP_NUMBER = '554833647128';
 
     const menuItems = [
       {
-        name: "Coxinha de Frango",
-        desc: "Coxinha caseira com massa leve e recheio generoso de frango com catupiry",
-        price: "R$ 7,00",
-        priceVal: 7,
+        name: "Pão Francês",
+        desc: "Crocante por fora, macio por dentro — o clássico da padaria de bairro, fresquinho a cada hora",
+        price: "R$ 1,20",
+        priceVal: 1.20,
         popular: true,
+        cat: "paes",
+        img: "https://images.unsplash.com/photo-1536459668688-1ee4e09e9f62?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Pão de Queijo",
+        desc: "Mineiro de verdade: crocante por fora, puxento por dentro, saindo quentinho o dia todo",
+        price: "R$ 4,50",
+        priceVal: 4.50,
+        popular: true,
+        cat: "paes",
+        img: "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Misto Quente",
+        desc: "Presunto e queijo derretido no pão artesanal, dourado na chapa com manteiga",
+        price: "R$ 12,00",
+        priceVal: 12,
+        popular: true,
+        cat: "salgados",
+        img: "https://images.unsplash.com/photo-1481070414801-51fd732d7184?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Empada de Frango",
+        desc: "Massa amanteigada e recheio generoso de frango com temperos especiais da casa",
+        price: "R$ 8,00",
+        priceVal: 8,
+        popular: false,
         cat: "salgados",
         img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80&auto=format&fit=crop"
       },
       {
-        name: "Pão de Queijo",
-        desc: "Pão de queijo mineiro, sequinho por fora e macio por dentro, saindo do forno",
-        price: "R$ 5,50",
-        priceVal: 5.5,
-        popular: true,
-        cat: "salgados",
-        img: "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=600&q=80&auto=format&fit=crop"
-      },
-      {
-        name: "Enroladinho de Salsicha",
-        desc: "Massa folhada crocante envolvendo salsicha temperada, dourado na medida certa",
-        price: "R$ 6,00",
-        priceVal: 6,
-        popular: false,
-        cat: "salgados",
-        img: "https://images.unsplash.com/photo-1612392166886-ee8475b03af2?w=600&q=80&auto=format&fit=crop"
-      },
-      {
-        name: "Brigadeiro Gourmet",
-        desc: "Chocolate belga, granulado artesanal — o brigadeiro que você vai se lembrar",
-        price: "R$ 6,00",
-        priceVal: 6,
-        popular: true,
-        cat: "doces",
-        img: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80&auto=format&fit=crop"
-      },
-      {
-        name: "Fatia de Bolo do Dia",
-        desc: "Bolo caseiro preparado toda manhã — pergunte o sabor do dia!",
+        name: "Mini Pizza Calabresa",
+        desc: "Molho caseiro, mussarela e calabresa fatiada sobre massa fofinha e crocante",
         price: "R$ 9,00",
         priceVal: 9,
+        popular: false,
+        cat: "salgados",
+        img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Sonho de Creme",
+        desc: "Massa levinha, creme de baunilha artesanal e açúcar de confeiteiro por cima",
+        price: "R$ 7,50",
+        priceVal: 7.50,
+        popular: true,
+        cat: "doces",
+        img: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Torta 4 Leites com Morangos",
+        desc: "A mais pedida da casa: base úmida de 4 leites, cobertura de chantilly e morangos frescos",
+        price: "R$ 18,00",
+        priceVal: 18,
+        popular: true,
+        cat: "doces",
+        img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80&auto=format&fit=crop"
+      },
+      {
+        name: "Torta Crocante de Nozes",
+        desc: "Caramelo toffee, nozes tostadas e base amanteigada. Receita especial da Dona Tita",
+        price: "R$ 16,00",
+        priceVal: 16,
         popular: false,
         cat: "doces",
         img: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80&auto=format&fit=crop"
       },
       {
-        name: "Quindim",
-        desc: "Doce de coco e gema de ovo, receita tradicional baiana com textura única",
-        price: "R$ 8,00",
-        priceVal: 8,
+        name: "Prato do Dia",
+        desc: "Refeição completa preparada diariamente com ingredientes frescos — pergunte o prato!",
+        price: "R$ 28,00",
+        priceVal: 28,
         popular: false,
-        cat: "doces",
-        img: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&q=80&auto=format&fit=crop"
+        cat: "salgados",
+        img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80&auto=format&fit=crop"
       },
       {
-        name: "Café Coado",
-        desc: "Grãos selecionados, moídos e coados na hora. Puro ou com leite a seu gosto",
-        price: "R$ 6,00",
-        priceVal: 6,
+        name: "Café com Leite",
+        desc: "Café coado fresco com leite integral quente. Simples, reconfortante e perfeito",
+        price: "R$ 7,00",
+        priceVal: 7,
         popular: true,
         cat: "bebidas",
         img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80&auto=format&fit=crop"
       },
       {
-        name: "Suco de Limão Siciliano",
-        desc: "Limão siciliano fresco espremido na hora, levemente adoçado. Refrescante!",
-        price: "R$ 8,00",
-        priceVal: 8,
+        name: "Café Passado",
+        desc: "Café filtrado na hora, sem pressa. Puro ou com leite à parte, como você prefere",
+        price: "R$ 5,50",
+        priceVal: 5.50,
         popular: false,
         cat: "bebidas",
-        img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&q=80&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80&auto=format&fit=crop"
       },
     ];
 
@@ -828,7 +885,7 @@
       const footer = document.getElementById('cartFooter');
       const totalEl = document.getElementById('cartTotal');
       if (cart.length === 0) {
-        body.innerHTML = `<div class="cart-empty"><div class="cart-empty-icon">🍰</div><p>Seu carrinho está vazio.<br>Adicione itens do cardápio!</p></div>`;
+        body.innerHTML = `<div class="cart-empty"><div class="cart-empty-icon">🥐</div><p>Seu carrinho está vazio.<br>Adicione itens do cardápio!</p></div>`;
         footer.style.display = 'none';
         return;
       }
@@ -873,7 +930,7 @@
       if (cart.length === 0) return;
       const lines = cart.map(i => `• ${i.qty}x ${i.name} — ${i.price}`).join('\n');
       const total = `R$ ${cartTotal().toFixed(2).replace('.', ',')}`;
-      const msg = `Olá, Café Limão! Vim pelo site e gostaria de fazer o seguinte pedido:\n\n${lines}\n\n*Total: ${total}*\n\nAguardo confirmação 😊`;
+      const msg = `Olá, Dona Tita! Vim pelo site e gostaria de fazer o seguinte pedido:\n\n${lines}\n\n*Total: ${total}*\n\nAguardo confirmação 😊`;
       window.open(`https://wa.me/${WPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
     }
 
@@ -915,12 +972,12 @@
     document.getElementById('cartBtn').addEventListener('click', openCart);
 
     const html = document.documentElement;
-    const stored = localStorage.getItem('cafe-limao-theme');
+    const stored = localStorage.getItem('dona-tita-theme');
     if (stored) html.setAttribute('data-theme', stored);
     document.getElementById('themeToggle').addEventListener('click', () => {
       const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
       html.setAttribute('data-theme', next);
-      localStorage.setItem('cafe-limao-theme', next);
+      localStorage.setItem('dona-tita-theme', next);
     });
 
     const nav = document.getElementById('nav');
